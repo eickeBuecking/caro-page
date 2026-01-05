@@ -252,6 +252,40 @@ strong {
     color: var(--text-color);
 }
 
+/* Vita Quote */
+.vita-quote {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-md) var(--spacing-sm);
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--bg-light);
+}
+
+.vita-quote p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-style: italic;
+    color: var(--text-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.vita-quote cite {
+    display: block;
+    font-size: 0.9rem;
+    font-style: normal;
+    color: var(--text-light);
+}
+
+.vita-quote cite a {
+    color: var(--text-light);
+    text-decoration: underline;
+}
+
+.vita-quote cite a:hover {
+    color: var(--primary-color);
+}
+
 /* ===================================
    Image Sections
    =================================== */
